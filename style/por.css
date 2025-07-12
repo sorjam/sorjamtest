@@ -1,0 +1,43 @@
+@keyframes backcolor {
+    from {background-color: aqua;}
+    to{background-color: darkgoldenrod;}
+
+    
+}
+.pah{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+    margin: auto;
+    transition: all 1s;
+    animation: backcolor 5s  2s infinite ;
+
+    h1{
+        margin: 0;
+        font-size: 30px;
+    }
+    p {
+        margin: 0;
+        font-size: 15px;
+    }
+    &:hover{
+        width: 450px;
+    height: 200px;
+    background-color: gray;
+    h1{
+        font-size: 60px;
+        color: aqua;
+    }
+    p{
+        font-size: 30px;
+        color: aqua;
+    }
+    }
+}

@@ -1,0 +1,27 @@
+header
+{
+    margin: auto;
+    align-items:center ;
+}
+
+.container {
+   max-width: 1120px;
+   margin: auto;
+   align-items: center;
+
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+.search{
+    width: 372px;
+    height: 56px;
+    border: 1px;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    color: #656565;
+
+}
